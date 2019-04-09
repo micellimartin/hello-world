@@ -2,16 +2,21 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define VACIO 0
+#define OCUPADO 1
+
+
 typedef struct{
 
 char nombre [20];
 int legajo;
 char sexo;
 float sueldo;
+int estado;
 
 }Eempleado;
 
-void mostrarEmpleado (Eempleado, Eempleado un);
+void mostrarEmpleado (Eempleado, int unEmpleado);
 
 int main()
 {
@@ -51,12 +56,12 @@ int main()
 
     Eempleado nomima[3] = {{"Martin",1111,'m',30000},{"Ana",2222,'f',40000},{"Jose",3333,'m',50000}};
 
-    mostrarEmpleado(nomima, 1);
 
     return 0;
 }
 
-void mostrarEmpleado (Eempleado, unEempleado)
+/*void mostrarEmpleado (Eempleado, int unEempleado)
 {
     printf("Nombre: %s Legajo: %d Sexo: %c Sueldo: %.3f\n", unEempleado.nombre, unEempleado.legajo, unEempleado.sexo, unEempleado.sueldo);
 }
+*/

@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1554062619 source:c:\users\martin\desktop\tp1\trabajo practico 1\funciones.c
+	"funciones.h"
+
+1554065955 source:c:\users\martin\desktop\tp1\trabajo practico 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1554059920 c:\users\martin\desktop\tp1\trabajo practico 1\funciones.h
+
+1554062619 source:c:\users\martin\desktop\clases l1p1\tp1 - calculadora\trabajo practico 1\funciones.c
+	"funciones.h"
+
+1554059920 c:\users\martin\desktop\clases l1p1\tp1 - calculadora\trabajo practico 1\funciones.h
+
+1554065955 source:c:\users\martin\desktop\clases l1p1\tp1 - calculadora\trabajo practico 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1554062619 source:c:\users\martin\desktop\clases l1p1\tp1 - calculadora - funciones varias\trabajo practico 1\funciones.c
+	"funciones.h"
+
+1554059920 c:\users\martin\desktop\clases l1p1\tp1 - calculadora - funciones varias\trabajo practico 1\funciones.h
+
+1554065955 source:c:\users\martin\desktop\clases l1p1\tp1 - calculadora - funciones varias\trabajo practico 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1554163958 source:c:\users\alumno\desktop\practica clase 5\clase 5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1554163663 source:c:\users\alumno\desktop\practica clase 5\clase 5\funciones.c
+	"funciones.h"
+
+1554163896 c:\users\alumno\desktop\practica clase 5\clase 5\funciones.h
+
+1556393181 source:c:\users\martin\desktop\hello-world\practica clase 5\clase 5\funciones.c
+	"funciones.h"
+
+1556393181 c:\users\martin\desktop\hello-world\practica clase 5\clase 5\funciones.h
+
+1556393181 source:c:\users\martin\desktop\hello-world\practica clase 5\clase 5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1556393181 source:c:\users\martin\desktop\clases l1p1\ordenar numeros  (swap basico)\funciones.c
+	"funciones.h"
+
+1556393181 c:\users\martin\desktop\clases l1p1\ordenar numeros  (swap basico)\funciones.h
+
+1556393181 source:c:\users\martin\desktop\clases l1p1\ordenar numeros  (swap basico)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

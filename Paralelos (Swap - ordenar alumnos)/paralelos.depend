@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1554166474 source:c:\users\alumno\desktop\paralelos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1554167412 source:c:\users\martin\desktop\paralelos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1554167412 source:c:\users\martin\desktop\clases l1p1\paralelos (swap - ordenar alumnos)\main.c
+	<stdio.h>
+	<stdlib.h>
+

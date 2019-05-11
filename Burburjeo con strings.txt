@@ -1,0 +1,30 @@
+Ejemplo: Se desarrollará el algoritmo para ordenar alfabéticamente un vector de estructuras
+de MAX elementos en el cuál se van a aplicar las 2 propiedades vistas.
+#include <stdio.h>
+
+#include <string.h>
+#define MAX 10
+
+struct alumno {
+char nombre[20];
+int nota;
+};
+
+void main(void)
+{
+
+struct alumno pers[MAX],aux;
+
+// ...
+
+for(i=0;i<MAX-1;i++)
+for(j=i+1;j<MAX;j++)
+if((strcmp(pers[i].nombre,pers[j].nombre))<0)
+{
+aux=pers[i];
+pers[i]=pers[j];
+pers[j]=aux;
+}
+
+// ...
+}

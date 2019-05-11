@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1555333705 source:c:\users\alumno\desktop\estructuras2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+
+1555944002 source:c:\users\alumno\desktop\estructuraslunes\estructuras2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+
+1555981740 source:c:\users\alumno\desktop\abmsector\estructuras2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+
+1555981785 source:c:\users\martin\desktop\clases l1p1\abm 2 - sectores (ultimo visto en clase 11)\estructuras2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+

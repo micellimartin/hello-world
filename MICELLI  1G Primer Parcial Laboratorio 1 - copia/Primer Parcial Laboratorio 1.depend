@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1557709510 source:c:\users\martin\desktop\micelli  1g primer parcial laboratorio 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+
+1557709559 source:c:\users\martin\desktop\micelli  1g primer parcial laboratorio 1 - copia\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+

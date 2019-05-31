@@ -1,0 +1,82 @@
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
+#define ARRIBA 1
+#define ABAJO 2
+#define IZQUIERDA 3
+#define DERECHA 4
+#define SELECT 5
+#define NADA 0
+
+int leerBoton();
+
+void setup() {
+  // put your setup code here, to run once:
+  lcd.begin(16,2);
+  Serial.begin(9600);
+  
+  //pinMode(A0,INPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+ int valorLeido;
+ valorLeido = leerBoton();
+ lcd.setCursor(0,0);
+ switch(valorLeido){
+   case DERECHA:
+   {
+    lcd.print("DERECHA   ");
+    break;
+   }
+   case IZQUIERDA:
+   {
+    lcd.print("IZQUIERDA          ");
+    break;
+   }
+   case ARRIBA:
+   {
+    lcd.print("ARRIBA  ");
+    break;
+   }
+   case ABAJO:
+   {
+    lcd.print("ABAJO   ");
+    break;
+   }
+   case SELECT:
+   {
+    lcd.print("SELECT   ");
+    break;
+   }
+   case NADA:
+   {
+    lcd.print("NADA             ");
+    }
+ }
+}
+
+
+int leerBoton(){
+  int valor;
+  int boton;
+  valor=analogRead(A0);
+  if(valor<120){
+    boton=DERECHA;
+    }
+  else if(valor>=120&&valor<300){
+    boton=ARRIBA;
+    }
+  else if(valor>=300&&valor<480){
+    boton=ABAJO;
+    }
+  else if(valor>=480&&valor<720){
+    boton=IZQUIERDA;
+    }
+  else if(valor>=720&&valor<1000){
+    boton=SELECT;
+    }
+  else if(valor>=1000){
+    boton=NADA;
+    }
+  return boton;  
+}
